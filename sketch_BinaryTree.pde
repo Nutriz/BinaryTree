@@ -6,7 +6,7 @@ void setup() {
 
   tree = new Tree();
 
-  for (int i=0; i < 10; i++) {
+  for (int i=0; i < 20; i++) {
     tree.addValue(int(random(0, 100)));
   }
 
@@ -17,5 +17,5 @@ void setup() {
 } //<>//
 
 void draw() {
-  
+  tree.show();
 }
