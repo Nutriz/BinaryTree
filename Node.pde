@@ -35,7 +35,6 @@ class Node {
   }
 
   void search(int val) {
-
     if (val == value) {
       println("Found");
     } else if (val < value && left != null) {

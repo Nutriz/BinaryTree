@@ -1,7 +1,7 @@
 Tree tree;
 
 void setup() {
-  size(128, 128);
+  size(600, 600);
   background(0);
 
   tree = new Tree();
@@ -12,4 +12,10 @@ void setup() {
 
   tree.traverse();
   tree.search(10);
+  
+  noLoop();
 } //<>//
+
+void draw() {
+  
+}
